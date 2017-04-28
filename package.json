@@ -1,0 +1,25 @@
+{
+  "name": "api_v1",
+  "version": "1.0.0",
+  "description": "restful-nodejs",
+  "main": "app.js",
+  "dependencies": {
+    "async": "^2.3.0",
+    "bcrypt": "^1.0.2",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "jsonwebtoken": "^7.4.0",
+    "mysql": "^2.13.0",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.2.1"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0"
+  },
+  "scripts": {
+    "test": "node app.js"
+  },
+  "author": "adisak.sun",
+  "license": "ISC"
+}
